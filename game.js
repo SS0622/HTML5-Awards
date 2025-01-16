@@ -260,8 +260,9 @@ function displayED(callback) {
     let alpha = 0;
     let isRunning = true;
     const text = currentScenario.text;
-    const initialY = 150; // 初期の y 座標
+    let initialY = 150; // 初期の y 座標
     const lineHeight = 50; // 行の高さ
+    if(currentScenarioIndex==5) initialY = 50;
     if (currentScenario.BGM !== "") playBGM(currentScenario.BGM, 'play');
     if (currentScenario.background != "") {
         background.src = currentScenario.background;

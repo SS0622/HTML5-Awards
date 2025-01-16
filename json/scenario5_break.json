@@ -1,0 +1,313 @@
+[
+    {
+        "text": [
+            "「うッ...、ここは....？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は頭を押さえながら立ち上がった。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「俺は何でこんなとこに、確か事務所に帰って...。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は倒れる前のことを必死に思い出した。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「そうだ！確か誰かに殴られてここに...。",
+            "一体誰が....？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は頭を抱えて考えた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「だめだわからない...。",
+            ".....。",
+            "とにかく、ここから脱出しよう。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は牢屋の扉の近くまで寄った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「この南京錠弱そうだな。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "バキッ"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺はそう言うと簡単に南京錠を破壊した"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「こんなに弱いものを使うなんて",
+            "捕まえる気あんのか？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は不思議に思いながら",
+            "牢屋の扉を開けた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [
+            "./json/ending3_churuEND.json",
+            "scenario",
+            "scenario3/2/0"
+        ],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「よし、それじゃあ見つからないうちに逃げよう。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺はそう言って走り出した。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「結構入り組んでるな、ここ。",
+            "お、扉がある。",
+            "ここのことを知るために少し調査するか。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は扉を開けた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「うわ、なんだここ。",
+            "廃墟か何かか？汚いにもほどがあるだろ....。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は驚いた様子であたりを見渡した。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「まぁ、調べてみるか.....。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "そういって俺は調査を開始した。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [
+            "./json/search.json",
+            "search"
+        ],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    }
+]

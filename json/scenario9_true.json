@@ -1,0 +1,1242 @@
+[
+    {
+        "text": [
+            "「けどその前に、やらなきゃいけないことがある。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_muka.png",
+            "./image/iraijya/iraijya_magao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺はイライジャから体を離し",
+            "真剣な顔でそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「他にやることって？",
+            "俺たちも子供たちも無事だし....。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "イライジャは不思議そうに俺を見た。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「一番の大物がいるだろ？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は嫌な顔でまた地図を見た。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「大物....。あー、オーガか。",
+            "あいつ逃げたんじゃないの？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「いや、さっき自爆装置を解除してるときにちょっとな。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は地図を畳んでイライジャの方を見た。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「すご、余裕ないと思ってたけど",
+            "もしかして結構余裕あった？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "イライジャは不思議そうな顔で俺を見た。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「いや？そんなことなけど、まぁ俺も必死だったしな。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「なんか理由になってないような気がするけど...。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「いくぞ。決着をつけないとな。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺はそう言って歩き出した。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「あ！待ってよ兄さん！！」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "イライジャも俺の後に続いた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「くっ、なぜ急に扉が...。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "オーガ",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_muka.png",
+            "./image/orga/orga_no-maru.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "オーガは慌てた様子で扉の前にいた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「もう逃げられないぞ。オーガ。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は静かにそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「ジーク...。貴様のせいか。",
+            "まぁいい。まさかここまで凄まじい能力があったとはな。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "オーガ",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "オーガは驚きを隠しながら俺に向き合った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「そういえばお前の息子は？",
+            "もう逃げたのか？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_muka.png",
+            "./image/iraijya/iraijya_magao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「私の息子は研究員に逃がすように指示を出した。",
+            "私も息子のところへ行かないといけないんでね。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "オーガ",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_muka.png",
+            "./image/orga/orga_no-maru.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "オーガはそう言ってポケットから小型の機械を取り出した。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「そう簡単に逃げられるかよ。",
+            "兄さんが警察を呼んだ。お前ももう終わりだ。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_muka.png",
+            "./image/iraijya/iraijya_muka.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "イライジャは強気にそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「それはどうかな？",
+            "私はそこら辺のやつとは出来が違うんでね。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "オーガ",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_muka.png",
+            "./image/orga/orga_no-maru.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "オーガは得意気に二人を見た。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「息子は本当に逃げたのか？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は急に突拍子もないことを言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「何を言っているんだ。",
+            "とっくに逃げているに決まっているだろう。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "オーガ",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "オーガは少し怒った顔でそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「なら、その息子がいたところまで案内しろ。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "探偵は強気な態度で詰め寄った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「なに？そんなことしてなんの意味がある？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "オーガ",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "オーガは不思議そうにそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「兄さん急にどうしたの？",
+            "あいつの息子はもういないんでしょ？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_muka.png",
+            "./image/iraijya/iraijya_magao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "イライジャは小声でそう聞いた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「まあ、見てろよ。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺も小声でイライジャにそう答えた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「今にわかるさ。",
+            "さぁ、早く案内しろ。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「.....。まあいいだろう。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "オーガ",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_muka.png",
+            "./image/orga/orga_no-maru.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "オーガは渋々着いてくるように言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「この扉の中だ。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "オーガ",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "そういわれてイライジャはその扉を開けた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「うわ、え、何だこのにおい...。",
+            "お前こんなところに息子を置いてたのか、？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png",
+            "./image/iraijya/iraijya_kanasimi.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "イライジャは驚いた様子でオーガを見た。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「におう？何を言っているんだ。",
+            "そんなことはない。お前の方がおかしいんじゃないか？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "オーガ",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png",
+            "./image/orga/orga_no-maru.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "オーガは不思議そうにイライジャを見た。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「え、？俺がおかしいのか？",
+            "兄さん、ここおかしいよね？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png",
+            "./image/iraijya/iraijya_kanasimi.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "イライジャは不安そうに俺に聞いた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「あぁ、ここのにおいは酷いもんだ。",
+            "まあこのにおいの正体はわかっているが...。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺はそう言って部屋の中に入った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「よかった変なの俺じゃなくて。",
+            "ん？においの正体？そんなことまでわかったの？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "イライジャも後に続いた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「これだ。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "探偵はにおいの正体を指さした。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「うわ、なにこれ...。",
+            "死体.....？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「あぁ、これはオーガの息子だ。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「え...！息子って...。",
+            "こいつの息子って死んでたの...？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "イライジャは驚いた様子で俺を見た。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「何を言っているんだ。",
+            "私の息子が死んでいる...？",
+            "お前はもっと賢いやつだと思っていたが。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "オーガ",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "オーガは心底嫌そうな顔をしてそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png",
+            "./image/orga/orga_no-maru.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「ベッドのネームプレートの名前は？",
+            "これはお前の息子の名前じゃないのか？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png",
+            "./image/iraijya/iraijya_magao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "そういってベッドからネームプレートを取り",
+            "オーガに見せた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「そうだ。当たり前だろう。",
+            "ここは私の息子の部屋だ。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "オーガ",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png",
+            "./image/orga/orga_no-maru.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "オーガは不服そうにそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「ならベッドにある死体をよく見ろ。",
+            "この子はお前の息子だろう。",
+            "お前の息子はとっくに亡くなってたんだ。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は淡々とそう告げた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「え....。",
+            "じゃあオーガはこの子が生きてるって",
+            "今まで錯覚しながら研究してたってこと..？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png",
+            "./image/iraijya/iraijya_magao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「まあ、そうだな。",
+            "奥さんに先立たれて、息子も亡くなって",
+            "きっとどこかで精神が壊れたんだろう。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は腕を組みながらそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「そんなはずはない。息子は生きている。",
+            "私の研究のおかげで....。そんなはずはない。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "オーガ",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png",
+            "./image/orga/orga_no-maru.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「俺の息子はまだ生きている.",
+            "早く元気になって日の光を浴びるんだ。",
+            "わぁぁぁ うわぁー」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "オーガは頭を抱え現実を",
+            "受け入れられずに泣き崩れた。"
+            
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「ほら、もう行くぞ。",
+            "確認したいこともできたし。",
+            "いつまでもここにいたら気がおかしくなる。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺はそう言ってオーガを無理やり引っ張った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「イライジャ、このままこいつを警察に引き渡そう。",
+            "もう俺だけがどうこうできることじゃないしな。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「うん..。早く子供たちのところに行こう。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png",
+            "./image/iraijya/iraijya_magao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "2人はオーガを引っ張って部屋を後にした。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [
+            "./json/ending5.json",
+            "scenario"
+        ],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    }
+]

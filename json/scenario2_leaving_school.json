@@ -1,0 +1,1299 @@
+[
+    {
+        "text": [
+            "(さて、誰から聞き込みをしようか。)"
+        ],
+        "text2": [
+            "(よし、次は誰に聞き込みをしよう？)"
+        ],
+        "backDisplay": "",
+        "BGM": "./music/7kyousitu.mp3",
+        "choices": [
+            "交通誘導員さん",
+            "心配性なお母さん",
+            "いかついお父さん",
+            "おとなしそうな男性"
+        ],
+        "next": [
+            1,
+            20,
+            47,
+            64
+        ],
+        "choicesFlag": [
+            [
+                "true"
+            ],
+            [
+                "true"
+            ],
+            [
+                "true"
+            ],
+            [
+                "true"
+            ]
+        ],
+        "flagName": [
+            "scenario2l/0/0",
+            "scenario2l/0/1",
+            "scenario2l/0/2",
+            "scenario2l/0/3"
+        ],
+        "choicesCount": 4,
+        "choicesCountNext": [81],
+        "anchor": "false",
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「お、交通誘導員さんだ」"
+        ],
+        "backDisplay": "./image/kikikomituugakuro.jpg",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "(この道を見守っているあの人なら",
+            "何か知っているかもしれない。)"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png",
+            "./image/another/kyara_inu.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「あの、すみません。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「はい？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "交通誘導員",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「私探偵をしているものなんですが",
+            "今15年前の失踪事件について調べて...。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は淡々とそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「失踪事件...。",
+            "その事件なら覚えているよ。」",
+            "思い出しながらそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "交通誘導員",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「ほんとうですか！？",
+            "どんな情報でもいいので教えてください！」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺はすがるようにそういった。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「そうだなぁ。",
+            "その子は下校中に跡形もなく突然消えたんだよ。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "交通誘導員",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "少し怯えながらそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「突然...？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「あぁ。",
+            "何も証拠が見つからなかったらしい。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "交通誘導員",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「そうですか...。",
+            "突然...。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「もういいかな？",
+            "仕事に戻らないと。」",
+            "誘導員は少し焦りながらそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "交通誘導員",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「はい。仕事中にすみません。",
+            "貴重な情報ありがとうございます。」",
+            "嬉しそうにそういった。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_egao.png",
+            "./image/another/kyara_inu.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "(子供が突然消えるなんておかしい...。",
+            "いったい何があったんだ？)"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [
+            0
+        ],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "(あの人なんだか不安げだな...。",
+            "どうしたんだ？)"
+        ],
+        "backDisplay": "./image/kikikomituugakuro.jpg",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_kanasimi.png",
+            "./image/another/kyara_usagi.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「すみません。大丈夫ですか？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「え、？はい。大丈夫です。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "お母さん",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+
+            "女性は少し驚いた様子でそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "お母さん",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「なんだか不安そうだったので",
+            "何かあったのかと。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「いや、なにか買い忘れがないか",
+            "確認していたのよ」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "お母さん",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「そんなことよりなにか御用ですか？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "お母さん",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「今人探しをしていてなにか",
+            "ご存知ですか？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "お母さん",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「そうね。私の息子がそこにある小学校に",
+            "通っているのですが15年くらい前に子供が",
+            "誘拐されたことがあって。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "お母さん",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "女性は少し涙目でそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「！！」",
+            "「それって子猫が誘拐されたってやつですか！？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は大きな声でそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「そうです。",
+            "お兄さんお若いのに知っているんですか？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "お母さん",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "女性は驚きながらそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「私探偵をやっていて",
+            "ちょうどその事件を調べていたところで...。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「え？あぁ、そうなんですね。",
+            "でも大変でしょう。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "お母さん",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "女性は心配そうに探偵のことを見た。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「はい...。情報が少なくって",
+            "参ってるところですよ。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「それは仕方がないと思います。",
+            "その子がいつ誘拐されたのか、",
+            "まだ時間が分かっていないらしくって。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "お母さん",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "女性は頬に手を添えながらそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「え！？",
+            "そうなんですか？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「えぇ、その日たまたまご両親の帰りが遅かったみたいで。",
+            "それで、家にいないって気が付くのに時間がかかった",
+            "らしいです。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "お母さん",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "女性は残念そうにそういった。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「そうなんですね。ありがとうございます。",
+            "貴重な情報を得ることができました。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「いえ。お役に立てたならよかったです。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "お母さん",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "女性は笑顔でそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "(誘拐された子猫は運が悪いな。",
+            "(誰にも気が付かれないなんて...。)"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [
+            0
+        ],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "(あの男性に話を聞いてみよう。",
+            "情に厚そうだし何か知っているかも...。)"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png",
+            "./image/another/kyara_pennginn.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「あの、すみません。」"
+        ],
+        "backDisplay": "./image/kikikomituugakuro2.jpg",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「はい。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "お父さん",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「私探偵をしているんですが、",
+            "15年前の失踪事件について調べていて。",
+            "何か知っていることはありませんか？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は淡々とそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「あぁ、子猫が誘拐されたってやつか。",
+            "あの事件は不気味すぎて気味が悪いんだよ。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "お父さん",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "嫌な顔をしながらそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「...不気味ですか。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「この町には防犯カメラがそれなりにあるんだが",
+            "そのカメラたちが急に停止することが",
+            "その日何回かあったみたいでな。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "お父さん",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「今までそんなことなかったみたいだからさ",
+            "みんな気味悪がってんだよ。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "お父さん",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "男性は腕を組みながらそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「今でも正常に動かないことってあるんですか？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「いや？そんなことないみたいだな。",
+            "あの日だけみたいだな。",
+            "防犯カメラがおかしくなったのは。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "お父さん",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "男性は不思議そうにそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「そうですか。",
+            "貴重な情報ありがとうございます。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_egao.png",
+            "./image/another/kyara_pennginn.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「おう。",
+            "頑張れよ兄ちゃん。」",
+            "笑顔で肩に手を置きながらそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "お父さん",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "(その日だけカメラが正常じゃなかったなんて。",
+            "おかしすぎる。誰かが細工したとしか思えない。)"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [
+            0
+        ],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "(あのおとなしい男性に話を聞いてみよう。)"
+        ],
+        "backDisplay": "./image/kikikomituugakuro2.jpg",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png",
+            "./image/another/kyara_inu.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「すみません。お時間よろしいですか？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「はい。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "男性",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "男性は少しびっくりしながらそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「私探偵をしていて",
+            "15年前の失踪事件について調べているんです。",
+            "その事件について知っていることはありませんか？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は淡々とそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「知っていることか...。",
+            "子猫が誘拐されているところを見た。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "男性",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "男性は物静かにそういった。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「え！本当ですか！",
+            "誘拐犯はどんな奴だったか覚えていますか？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は大きな声でそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「そこまでは覚えてないな。」",
+            "「でも車にはそれなりに人が乗っていて、",
+            "ぼくは当時家族なのかと思ってて。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "男性",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「家族...？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「あぁ。車も普通だったし、男も女もいたし。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "男性",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「そうですか...。",
+            "当時どこでそれを見ていたんですか？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「あそこの茂みの中だよ。",
+            "授業で必要な土を集めてた。",
+            "で、誘拐されてたのは目の前の道路だよ。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "男性",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "そう言って男性は茂みを指さしてそういった。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「そうだったんですね...。",
+            "貴重な情報ありがとうございます！」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_egao.png"
+
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "(これは大きな情報だ。)",
+            "(でもこんな大通りで誘拐された割には",
+            "見ていた人がさっきの青年だけなんて....。)"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は不思議そうに首を傾げた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [
+            0
+        ],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「よし。こんなところかな。",
+            "なかなか情報が集まってきた。",
+            "この調子だ。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は気分よく事務所に戻った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [
+            "./json/scenario2_.json",
+            "scenario"
+        ],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    }
+]

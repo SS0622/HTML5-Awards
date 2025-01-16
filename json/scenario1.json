@@ -1,0 +1,607 @@
+[
+    {
+        "text": [
+            "「失礼します！」"
+        ],
+        "backDisplay": "./image/tannteijimusyo.jpg",
+        "BGM": "./music/3omo.mp3",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "???",
+        "SoundEffects": "./music/4doa.mp3",
+        "character": [
+            "./image/iraijya/iraijya_yorokobi.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "事務所の扉が勢いよく開く音がして、",
+            "主人公は机から顔を上げた。",
+            "現れたのは、17歳くらいの少年だった。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [""],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "くしゃっとした笑顔を浮かべ、少し乱れたシャツの裾",
+            "を直しながら、まるで昔からの知り合いのような親し",
+            "げな態度で近づいてきた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「探偵さんですよね？噂を聞いて来たんですけど、",
+            "すごい腕だって評判だったんで！」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "???",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "少年は椅子を勧められる前に自分から腰を下ろし、テ",
+            "ーブルに肘をつきながら続けた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「俺、イライジャって言います。今日はどうしてもお",
+            "願いしたいことがあって来たんです！」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「それで、具体的にはどういう",
+            "ご依頼でしょうか？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png",
+            "./image/iraijya/iraijya_yorokobi.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「実は……兄貴を探してほしいんです。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png",
+            "./image/iraijya/iraijya_magao.png"
+        ],
+        "endFlag":""
+    },
+    {
+        "text": [
+            "イライジャは少し真剣な顔つきになり、ポケットから",
+            "メモ帳を取り出して差し出した。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「これ、兄貴の特徴なんですけど、",
+            "もう10年以上行方が分からなくて",
+            "……どこに頼んでも見つからないんです。でも、俺",
+            "どうしても諦めたくなくて！」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "主人公はメモ帳を受け取り、じっと読み始める。",
+            "その内容にはどこか引っかかるものがあった。",
+            "だが、それが何かは言葉にできない。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "./music/5kami1.mp3",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「失踪したのはいつ頃ですか？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「俺がまだ生まれる前の頃っすね。",
+            "事故に遭ったって話で、それから兄貴がどこにもいな",
+            "くなっちゃって…。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "イライジャは早口で話しながら、ふと沈黙して視線を",
+            "落とした。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png",
+            "./image/iraijya/iraijya_kanasimi.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「俺、両親がずっと辛そうだったんですよ。それ見る",
+            "のが嫌で……だから、俺がどうにかしたいんです。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "依頼を受けますか？"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [
+            "YES",
+            "NO"
+        ],
+        "next": [
+            18,
+            16
+        ],
+        "choicesFlag": [
+            [
+                "true"
+            ],
+            [
+                "true"
+            ]
+        ],
+        "flagName": [
+            "scenario1/16/0",
+            "scenario1/16/1"
+        ],
+        "choicesCount": 99,
+        "choicesCountNext": [0],
+        "anchor": "",
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+
+    {
+        "text": [
+            "私の勘が言っていた。この件はかかわるべきではないと。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「お気持ちは痛いほど分かります。しかし、私にはお",
+            "力になれる保証がありません。無責任に引き受けるわ",
+            "けにはいきませんので、申し訳ありませんが、今回は",
+            "お断りさせていただきます。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [
+            "./json/ending1.json",
+            "synopsis"
+        ],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_kanasimi.png",
+            "./image/iraijya/iraijya_kanasimi.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「分かりました。その案件受けさせていただきます。",
+            "それでもう少し情報がほしいのですが...。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png",
+            "./image/iraijya/iraijya_egao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「はい！できるだけお答えします！」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png",
+            "./image/iraijya/iraijya_yorokobi.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "（何を聞こう？）"
+        ],
+        "text2": [
+            "（他に何を聞こう？）"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [
+            "事件当時の被害者の状況について",
+            "被害者の名前と人物像について",
+            "失踪した心当たりについて"
+        ],
+        "next":[
+            21,
+            23,
+            25
+        ],
+        "choicesFlag": [
+            [
+                "true"
+            ],
+            [
+                "true"
+            ],
+            [
+                "true"
+            ]
+        ],
+        "flagName": [
+            "scenario1/20/0",
+            "scenario1/20/1",
+            "scenario1/20/2"
+        ],
+        "choicesCount": 3,
+        "choicesCountNext": [
+            27
+        ],
+        "anchor": "",
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+        
+    },
+    {
+        "text": [
+            "「失踪した頃について詳しく教えて下さい」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「そうですね。",
+            "日付はわからないんですが学校へ行ったきり",
+            "家に帰って来てないらしいです。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [
+            20
+        ],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png",
+            "./image/iraijya/iraijya_kanasimi.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「被害者について詳しく教えて下さい」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「それがわからないんですよね。」",
+            "「親に聞いてもこのことについてもう",
+            "触れてほしくないらしくて...。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [
+            20
+        ],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「失踪した心当たりはなにかありますか？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「親が話したがらないのでわからないんですよね」",
+            "「当然僕も生まれる前なのでわからないんですよね。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [
+            20
+        ],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「あのすみません。このあと予定があって...。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png",
+            "./image/iraijya/iraijya_magao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「分かりました。お兄さんをできるだけ早く",
+            "見つかるように尽力します。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "僕は深く頷き、",
+            "机の上のメモ帳を見つめた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "イライジャは再び笑顔を浮かべて立ち上がった。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「本当にありがとうございます！絶対見つけてくださ",
+            "いね！期待してます！」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png",
+            "./image/iraijya/iraijya_egao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "その言葉を残し、軽やかに事務所を後にした。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "扉が閉まる音がした後、主人公は静かに息をつきなが",
+            "らメモ帳を手に取った。そこに書かれた内容の既視感",
+            "が何を意味するのか――それを知るのは、これからの",
+            "調査次第だった。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [
+            "./json/scenario2_.json",
+            "scenario"
+        ],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    }
+]

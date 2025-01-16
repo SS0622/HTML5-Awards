@@ -1,0 +1,1095 @@
+[
+    {
+        "text": [
+            "俺はここの探索で得た証拠と",
+            "聞き込みで手に入れた情報を",
+            "繋ぎ合わせ真実にたどり着いた。"
+        ],
+        "backDisplay": "./image/black_00080.jpg",
+        "BGM": "./music/MusMus-BGM-164.mp3",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": ["./image/tantei/tanntei_no-maru.png"],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「嘘だろ...イライジャさんが",
+            "探していた人は俺だったのか....?」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_kanasimi.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は家族写真を見ながら衝撃を受けた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「だめだ...頭が整理できない...。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は頭を押さえながら、",
+            "震える手で実験体記録をみた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「はは...。",
+            "こんな数値見たらそりゃ実験",
+            "もしたくなるよな...。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "そう嘲笑いながら隣にあった報告書を手に取った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「何もかも一致しているな...。",
+            "やっぱりこの子猫俺で間違いか...。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「いまだに実感がわかないな...。",
+            "でも早くここから脱出してイライジャさんに",
+            "真実を伝えないと...。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は釈然としない様子で",
+            "証拠を近くにあった袋に集めた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「よし、こんなもんかな。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "脱出しようと袋を持ち上げたその時。",
+            "机の上にあったタブレットがいきなり光りだした。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「うわ！！なんだ？",
+            "さっきまで何しても動かなかったのに...。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は驚きつつもタブレットを持ち上げた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「なんだ？何が映ってる...？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "タブレットを見ると",
+            "薄気味悪い部屋が映し出されていた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「どこだ？ここの施設の研究室か？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "そこに子猫の男の子が",
+            "二人の白衣を着た男に連れられてきた。",
+            "男たちは子猫を真ん中にあった台に縛り付け固定した。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「この子はこれから実験されるのか．．．。",
+            "こんなに小さいのに、12歳くらいか？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は悔しそうな顔をしながら画面を見つめた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "そこに、またもう一人白衣を着た男が来た。",
+            "初めにいた二人の男は",
+            "その男を見ると深くお辞儀をした。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「何だこいつ．．．。",
+            "なんだか嫌な感じだな。",
+            "この様子だとこいつがここで一番偉いやつか？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は嫌そうな顔をしながらそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "最後に出てきた男が子猫に近づいた。",
+            "子猫は偉そうな男に何かを言っている。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「声がとぎれとぎれで",
+            "何言ってるかわからないな．．。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "子猫は何かを訴えるように力強い目で",
+            "その男に話しかけ続けている。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "男はその子猫の言っていたことに",
+            "感心したのか、不敵な笑みを浮かべた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "その子猫と話すことに満足したのか",
+            "男は研究員に指示をした。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「もう満足した。",
+            "実験を始めろ。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "偉そうな男",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "はっきりそう聞こえた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "探偵がその声を聴いて呆然としていると",
+            "研究員たちとその男は部屋から出ていった。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "子猫は暴れながら大声で何かを言っている。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「ひどいな．．．。こんな子供に．．．．。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は小さい声でそうつぶやいた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "そこにさっきの偉そうな男が子猫に近づいた。",
+            "その男は二人の研究員に子猫を",
+            "抑えているように命令した。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "抑えているところを確認した男は",
+            "子猫の首に注射を刺した。",
+            "青色の液体は徐々に子猫の体内に入っていった。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「．．．．．。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "探偵は凄惨な状況に言葉が出なかった。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "注射を打たれた子猫は暴れるのをやめた。",
+            "その時、急に子猫が苦しみだした。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "(あの注射器の中身はいったい何なんだ．．．。)"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺がそうつぶやいた途端、",
+            "子猫の体が急に膨らみだした。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "子猫は嫌そうに首を振っていたが",
+            "ふくらみは止まらなかった。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "子猫は涙を流しながら気絶してしまった。",
+            "研究員と偉そうな男は落胆した顔をしていた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "(この実験は失敗したのか．．．？)"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "誰もがそう思った時、",
+            "子猫の体がまた変化し、",
+            "まるで怪物のような見た目に変わってしまった。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「何なんだいったい！？",
+            "あいつらあの子に何を打ったんだ！！」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_ikari.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は声を上げて怒った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "男たちは実験の成功に喜んでいる様子だった。",
+            "男たちが子猫に近づいた瞬間",
+            "子猫は怪獣のような声を出し、暴れだした。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "研究員たちが驚いていると、",
+            "子猫は拘束していた器具を破壊し",
+            "研究員たちに襲い掛かった。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「まるで別人だな．．．。",
+            "悪魔に体が乗っ取られたみたいだ。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "子猫は研究員たちを投げ飛ばし壁にたたきつけた。",
+            "研究員たちはそのまま動かなくなった。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "子猫が偉そうな男に襲いかかろうと",
+            "したときその男が子猫に何かを言った。",
+            "その声を聴いた途端子猫は暴れるのをやめてしまった。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「あいつ、何か制御できるものでも持っているのか？",
+            "あんなに暴れていたのに．．．。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は不思議そうにそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "しかし子猫はまた暴れ始めた。",
+            "その男に突撃したかと思ったが",
+            "子猫は周りにあった装置を破壊し始めた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「急にどうしたんだ？",
+            "さっきとはまるで暴れ方も違う．．．．。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "その時、機械を破壊したためか",
+            "けたたましく警報音が鳴り響いた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「っ！！！」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺はその音を聞いた",
+            "途端息をのみ頭を押さえた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「この音、聞き覚えがある．．．。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "ふとタブレットを見たとき",
+            "子猫がこちらを見ていた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「あ．．．．。",
+            "ルパード．．．。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺が呆然としていると",
+            "扉から研究員が大勢入ってきた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "偉そうな男はその研究員たちに",
+            "指示を出し子猫はいとも簡単に",
+            "捕らえられてしまった。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "そこで映像は切れてしまった。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「待て！ルパードはどうなったんだ！！」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_ikari.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "そう叫びながらタブレットを触った。",
+            "しかし、タブレットの画面は黒いままだった。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「くそっ、あいつふざけやがって．．．。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "そういって俺は怒りを",
+            "あらわにした。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「待てよ。確かここ所長室があったよな。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺はさっき手に入れた地図を見た。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「もしかしたらここにいるかもしれない。",
+            "．．．．．．よし。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は所長室まで走った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [
+            "./json/scenario8_director.json",
+            "scenario"
+        ],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [],
+        "endFlag": ""
+    }
+    
+    
+]

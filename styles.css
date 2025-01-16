@@ -1,0 +1,108 @@
+body {
+    font-family: 'Courier New', Courier, monospace; /* 探偵風のフォント */
+    background-color: #000; /* 背景色を黒に設定 */
+    color: #f0f0f0; /* テキスト色をライトグレーに設定 */
+    margin: 0;
+    padding: 0;
+}
+
+.game {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.8); /* 透過黒背景 */
+    border-bottom: 2px solid #f0f0f0; /* ライトグレーのボーダー */
+}
+
+#header .logo {
+    width: 400px; /* 画像の幅 */
+    height: auto; /* 画像の高さを自動調整 */
+    margin-right: 700px;
+}
+
+#header .small-imag {
+    width: 10px; /* 画像の幅 */
+    height: auto; /* 画像の高さを自動調整 */
+    margin-right: 10px;
+    cursor: pointer;
+}
+#header .small-image.muted { 
+    border: 2px solid red; /* ミュート時のボーダー色を赤に設定 */
+}
+
+#t {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 56px; /* フォントサイズを56pxに設定 */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* 影の設定 */
+    background: linear-gradient(to bottom right, rgb(255, 0, 128), rgb(157, 0, 255)); /* グラデーション */
+    -webkit-background-clip: text; /* WebKit系ブラウザ用 */
+    -webkit-text-fill-color: transparent; /* WebKit系ブラウザ用 */
+    background-clip: text;
+}
+
+#game {
+    margin: 20px;
+    text-align: center;
+    border: 2px solid #f0f0f0; /* ライトグレーのボーダー */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 探偵風の影 */
+}
+
+#display {
+    background-color: #333333; /* ダークグレーの背景色 */
+}
+
+#startButton {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    border: 2px solid #f0f0f0; /* ライトグレーのボーダー */
+    cursor: pointer;
+}
+
+/* 新しいデザイン要素 */
+#footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8); /* 透過黒背景 */
+    border-top: 2px solid #f0f0f0; /* ライトグレーのボーダー */
+    margin-top: 20px;
+}
+
+#footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #f0f0f0; /* ライトグレーのテキスト色 */
+}
+
+.button {
+    background-color: #333333; /* ダークグレーの背景色 */
+    color: #f0f0f0; /* ライトグレーのテキスト色 */
+    border: 2px solid #f0f0f0; /* ライトグレーのボーダー */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+    background-color: #f0f0f0; /* ホバー時の背景色 */
+    color: #333333; /* ホバー時のテキスト色 */
+}

@@ -1,0 +1,9 @@
+🦞🦞🦞🦞🦞🦞🦞🦞起動方法🦞🦞🦞🦞🦞🦞🦞🦞
+
+Visual Studio Code で 拡張機能「Live Server」を使い、
+
+Let's_go_to_the_death_zoneフォルダー直下の
+
+「index.html」で「Open With Live Server」を実行する。
+
+ブラウザ環境はChoromeを推奨。

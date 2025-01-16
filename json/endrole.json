@@ -1,0 +1,74 @@
+[
+    {
+        "text": [
+            "企画",
+            "ロブスター１号",
+            "ロブスター２号",
+            "きんぴらごぼう"
+        ],
+        "background": "./image/white.png",
+        "BGM": "./music/Future_1.mp3",
+        "coordinate": []
+    },
+    {
+        "text": [
+            "シナリオ",
+            "きんぴらごぼう"
+        ],
+        "background": "./image/white.png",
+        "BGM": "./music/Future_1.mp3",
+        "coordinate": []
+    },
+    {
+        "text": [
+            "プログラミング",
+            "ロブスター１号"
+        ],
+        "background": "",
+        "BGM": "",
+        "coordinate": []
+    },
+    {
+        "text": [
+            "アシスタント",
+            "ロブスター２号"
+        ],
+        "background": "",
+        "BGM": "",
+        "coordinate": []
+    },
+    {
+        "text": [
+            "グラフィック・音楽",
+            "きんぴらごぼう",
+            "ロブスター１号(ちょっとだけやったよ)"
+        ],
+        "background": "",
+        "BGM": "",
+        "coordinate": []
+    },
+    {
+        "text": [
+            "背景・音楽使用サイト",
+            "効果音、音楽",
+            "© 2013-2023 効果音ラボ All Rights Reserved.",
+            "音楽：BGMer",
+            "http://bgmer.net",
+            "COPYRIGHT © 2025, DOVA-SYNDROME. ALL RIGHTS RESERVED.",
+            "背景",
+            "ゲームまてりあるず（ https://game-materials.com/ ）",
+            "みんちりえ（ https://min-chi.material.jp/ ）"
+        ],
+        "background": "",
+        "BGM": "",
+        "coordinate": []
+    },
+    {
+        "text": [
+            "Thank you for playing!"
+        ],
+        "background": "",
+        "BGM": "",
+        "coordinate": [0,0]
+    }
+]

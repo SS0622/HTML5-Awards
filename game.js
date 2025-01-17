@@ -344,6 +344,10 @@ function displayScenario(callback) {
     let showTriangle = false; //
     let triangleTimerStarted = false;
     let flagNum = 0;
+    let autoFlag = 0;//通常 0 選択肢存在-1 次へ1
+    let autoNum = 2;
+    let autoIS = false;
+    let auIsMouseOver = false;
     const x = 130;
     const choices = currentScenario.choices;
     const next = currentScenario.next;
@@ -358,6 +362,7 @@ function displayScenario(callback) {
     let y = 280;
     // 選択肢が存在する場合
     if (flagLength > 0) {
+        autoFlag = -1;
         const flagNames = currentScenario.flagName;
         // anchorにjsonファイル名が入っている場合
         if (currentScenario.anchor !== "false") dictionary.set(currentScenario.anchor, currentScenarioIndex);
@@ -493,6 +498,7 @@ function displayScenario(callback) {
             ctx.textAlign = 'left';
             ctx.fillText(text[lineIndex].slice(0, charIndex + 1), x, y);
             charIndex++;
+            autoNum+=0.1;
             if (charIndex >= text[lineIndex].length - 1) {
                 charIndex = 0;
                 lineIndex++;
@@ -1279,7 +1285,6 @@ function endListDisplay(callback) {
         if (callback) callback(); // コールバック関数を実行
     });
 }
-
 // ボックス表示
 function roundRect(ctx, x, y, width, height, radius, colorStart, colorEnd) {
     const gradient = ctx.createLinearGradient(x, y, x + width, y);

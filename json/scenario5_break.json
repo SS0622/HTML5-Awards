@@ -19,7 +19,7 @@
         "text": [
             "俺は頭を押さえながら立ち上がった。"
         ],
-        "backDisplay": "",
+        "backDisplay": "./image/rouyanonaka.jpg",
         "BGM": "",
         "choices": [],
         "next": [],
@@ -196,7 +196,7 @@
         "text": [
             "「よし、それじゃあ見つからないうちに逃げよう。」"
         ],
-        "backDisplay": "",
+        "backDisplay": "./image/rouya.jpg",
         "BGM": "",
         "choices": [],
         "next": [],
@@ -269,7 +269,7 @@
         "text": [
             "俺は驚いた様子であたりを見渡した。"
         ],
-        "backDisplay": "",
+        "backDisplay": "./image/tannsaku.jpg",
         "BGM": "",
         "choices": [],
         "next": [],

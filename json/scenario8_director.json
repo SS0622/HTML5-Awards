@@ -13,12 +13,13 @@
         "character": [],
         "endFlag": ""
     },
+    
     {
         "text": [
             "「待っていたよ。",
             "ジーク。記憶は戻ったかな？」"
         ],
-        "backDisplay": "",
+        "backDisplay": "./image/seigyositu.jpg",
         "BGM": "",
         "choices": [],
         "next": [],

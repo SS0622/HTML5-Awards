@@ -6,7 +6,7 @@
         "text2": [
             "(よし、次は誰に聞き込みをしよう？)"
         ],
-        "backDisplay": "",
+        "backDisplay": "./image/kikikomikouenn.jpg",
         "BGM": "./music/6kouenn.mp3",
         "choices": [
             "ほのぼのしているおじいさん",

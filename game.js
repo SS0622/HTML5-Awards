@@ -248,7 +248,11 @@ function displaySynopsisAndEnding(callback) {
             currentScenarioIndex++;
             if (triangleTimerStarted) clearInterval(intervalId);
             canvas.removeEventListener('click', handleClick);
-            if (currentScenario.next.length != 0) {
+            if (currentScenario.endFlag != "") {
+                console.log("ゲーム終了");
+                localStorage.setItem(currentScenario.endFlag, true);
+                callback();
+            } else if (currentScenario.next.length != 0) {
                 discrimination(currentScenario.next, 0, callback, 'scenario');
             } else if (fetchedData.length <= currentScenarioIndex) {
                 callback();
@@ -268,11 +272,11 @@ function displaySynopsisAndEnding(callback) {
             }, 500); // 点滅間隔
         }
     }
-    // setTimeout(function () {
-    //     canvas.addEventListener('click', handleClick);
-    //     startTriangleTimer();
-    // }, 3000);
-    canvas.addEventListener('click', handleClick);
+    setTimeout(function () {
+        canvas.addEventListener('click', handleClick);
+        startTriangleTimer();
+    }, 3000);
+    //canvas.addEventListener('click', handleClick);
 }
 // ED
 function displayED(callback) {
@@ -509,7 +513,7 @@ function displayScenario(callback) {
                     if (isMouseOver[i]) roundRect(ctx, xwidth, ynum - 25, 400, 30, 10, 'rgba(253, 196, 161, 0.8)', 'rgba(255, 0, 0, 0.5)');
                     else roundRect(ctx, xwidth, ynum - 25, 400, 30, 10, 'rgba(161, 196, 253, 0.8)', 'rgba(194, 233, 251, 0.5)');
                     choicesRange.y[num] = ynum - 25;
-                    ctx.font = 'bold 25px sans-serif';
+                    ctx.font = 'bold 15px sans-serif';
                     ctx.fillStyle = 'black';
                     ctx.textAlign = 'center';
                     ctx.fillText(choices[i], canvas.width / 2, ynum);
@@ -592,7 +596,7 @@ function displayScenario(callback) {
                     console.log(Flagged);
                     if (currentScenario.endFlag != "") {
                         console.log("ゲーム終了");
-                        localStorage.setItem('end', currentScenario.endFlag);
+                        localStorage.setItem(currentScenario.endFlag, true);
                         if (currentScenario.endFlag == 'end5') {
                             jsonqu.enqueue("./json/endrole.json");
                             jsonType.enqueue('ED');
@@ -924,7 +928,6 @@ async function saveDisplay(either) {
     const mozi = ["はい", "いいえ"];
     const moziX = [(coX1 + confirmationX / 2), coX2 + confirmationX / 2];
     let slot = [1, 2, 3];
-    let endListClick = false;
     let enIsMouseOver = false;
     // スロットスクロール
     function handleScroll(event) {
@@ -1071,16 +1074,28 @@ async function saveDisplay(either) {
                 }
             }
             if (isInside(clickX, clickY, 30, 160, 30, 70)) {
-                isRunning = false;
+                console.log("saveDisplay中断");
+                //isRunning = false;
                 canvas.removeEventListener('click', handleClick);
                 canvas.removeEventListener('mousemove', hover);
                 canvas.removeEventListener('mouseenter', mouseEnter);
                 canvas.removeEventListener('mouseleave', mouseLeave);
                 canvas.removeEventListener('wheel', handleScroll);
-                isMouseOverCanvas = false;
                 scrollOffset = 0;
                 return new Promise(resolve => {
-                    endListDisplay(resolve);
+                    endListDisplay(() => {
+                        console.log("endListDisplay の終了後に Promise を解決");
+                        resolve(); // Promise を解決して終了
+                    });
+                }).then(() => {
+                    console.log("saveDisplay再会");
+                    //isRunning = true;
+                    canvas.addEventListener('click', handleClick);
+                    canvas.addEventListener('mousemove', hover);
+                    canvas.addEventListener('mouseenter', mouseEnter);
+                    canvas.addEventListener('mouseleave', mouseLeave);
+                    canvas.addEventListener('wheel', handleScroll);
+                    //draw();
                 });
             }
             // 削除最終確認
@@ -1185,7 +1200,7 @@ async function saveDisplay(either) {
     });
 }
 // エンドリスト############################################
-function endListDisplay(resolve2) {
+function endListDisplay(callback) {
     console.log("endListDisplay開始");
     let isRunning = true;
     let endListMouseOver = false; // エンドリストボタンhover
@@ -1201,19 +1216,21 @@ function endListDisplay(resolve2) {
         else roundRect(ctx, 30, 30, 130, 40, 10, 'rgb(91, 207, 87)', 'rgba(70, 224, 109, 0.8)');
         ctx.fillStyle = 'black';
         ctx.font = 'bold 15px sans-serif';
-        if (endListClick) {
-            ctx.fillText("戻る", 95, 50);
-            roundRect(ctx, 150, 100, 500, 250, 10, 'rgba(162, 162, 162, 0.83)', 'rgba(73, 69, 69, 0.89)');
-            for (let i = 0; i < 5; i++) {
-                if (endViewMouseOver[i]) roundRect(ctx, endListX[i], endListY[i], 200, 60, 10, 'rgba(76, 36, 195, 0.83)', 'rgba(73, 69, 69, 0.89)');
-                else roundRect(ctx, endListX[i], endListY[i], 200, 60, 10, 'rgba(0, 0, 0, 0.83)', 'rgba(166, 184, 50, 0.89)');
-                ctx.fillStyle = 'white';
-                ctx.font = 'bold 20px sans-serif';
-                ctx.fillText(endL[i], endListX[i] + 10, endListY[i] + 10);
-                if (localStorage.getItem(endL[i]) != null) ctx.fillText(endL[i], endListX[i] + 10, endListY[i] + 10);
-                else ctx.fillText(endList[endL[i]], endListX[i] + 10, endListY[i] + 10);
+        ctx.fillText("戻る", 95, 50);
+        roundRect(ctx, 150, 100, 500, 250, 10, 'rgba(162, 162, 162, 0.83)', 'rgba(73, 69, 69, 0.89)');
+        for (let i = 0; i < 5; i++) {
+            if (endViewMouseOver[i]) roundRect(ctx, endListX[i], endListY[i], 200, 60, 10, 'rgba(76, 36, 195, 0.83)', 'rgba(73, 69, 69, 0.89)');
+            else roundRect(ctx, endListX[i], endListY[i], 200, 60, 10, 'rgba(183, 109, 109, 0.68)', 'rgba(184, 50, 166, 0.43)');
+            ctx.fillStyle = 'white';
+            ctx.font = 'bold 15px sans-serif';
+            ctx.textAlign = 'center';
+            ctx.fillText(endL[i], endListX[i] + 100, endListY[i] + 20);
+            if (localStorage.getItem(endL[i]) != null) {
+                ctx.fillText(endList[endL[i]], endListX[i] + 100, endListY[i] + 40);
+            } else {
+                ctx.fillText("???", endListX[i] + 100, endListY[i] + 40);
             }
-        } else ctx.fillText("エンドリスト", 95, 50);
+        }
         requestAnimationFrame(draw);
     }
     //　hover
@@ -1237,22 +1254,32 @@ function endListDisplay(resolve2) {
             for (let i = 0; i < 5; i++) {
                 if (isInside(clickX, clickY, endListX[i], endListX[i] + 200, endListY[i], endListY[i] + 60)) {
                     endViewClick[i] = true;
+                    endListClick = false;
                     break;
                 }
             }
             if (isInside(clickX, clickY, 30, 160, 30, 70)) {
+                console.log('戻るをクリック', endListClick);
                 if (!endListClick) {
-
+                    endListClick = true;
+                    for (let i = 0; i < 5; i++) endViewClick[i] = false;
                 } else {
-                    resolve(resolve2);
+                    isRunning = false;
+                    canvas.removeEventListener('click', handleClick);
+                    canvas.removeEventListener('mousemove', hover);
+                    console.log("endListDisplay終了");
+                    resolve();
                 }
             }
         }
         canvas.addEventListener('click', handleClick);
         canvas.addEventListener('mousemove', hover);
         draw();
+    }).then(() => {
+        if (callback) callback(); // コールバック関数を実行
     });
 }
+
 // ボックス表示
 function roundRect(ctx, x, y, width, height, radius, colorStart, colorEnd) {
     const gradient = ctx.createLinearGradient(x, y, x + width, y);
@@ -1369,7 +1396,7 @@ async function main() {
         }, 20000);
     } finally {
         console.log("最初から");
-        //window.location.reload();
+        window.location.reload();
     }
 }
 window.onload = function () {

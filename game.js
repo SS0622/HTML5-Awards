@@ -362,6 +362,7 @@ function displayScenario(callback) {
     let y = 280;
     // 選択肢が存在する場合
     if (flagLength > 0) {
+        autoFlag = 1;
         autoFlag = -1;
         const flagNames = currentScenario.flagName;
         // anchorにjsonファイル名が入っている場合

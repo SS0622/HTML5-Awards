@@ -68,8 +68,6 @@ let saveData = {
     selected: new Map()
 }
 let dictionary = new Map();
-
-
 //スタート画面動画再生
 async function startGame() {
     let isClicked = false;
@@ -199,6 +197,9 @@ function displaySynopsisAndEnding(callback) {
     const currentScenario = fetchedData[currentScenarioIndex];
     let alpha = 0;
     let isRunning = true;
+    let intervalId;
+    let showTriangle = false;
+    let triangleTimerStarted = false;
     if (currentScenario.BGM !== "") {
         playBGM(currentScenario.BGM, 'play');
     }
@@ -218,7 +219,7 @@ function displaySynopsisAndEnding(callback) {
         let y = yArray[currentScenario.text.length];
         const x = canvas.width / 2;
         // 文字を徐々に浮かび上がらせる
-        alpha += 0.003;
+        alpha += 0.01;
         if (alpha >= 1) alpha = 1;
         ctx.font = '20px Arial';
         ctx.fillStyle = `rgba(255, 255, 255, ${alpha})`;
@@ -228,6 +229,8 @@ function displaySynopsisAndEnding(callback) {
             ctx.fillText(t, x, y);
             y += 30;
         }
+        // 点滅
+        if (showTriangle) blink();
         requestAnimationFrame(draw);
     }
     function handleClick(event) {
@@ -238,6 +241,7 @@ function displaySynopsisAndEnding(callback) {
             isRunning = false;
             console.log("クリックSynopsisAndEnding");
             currentScenarioIndex++;
+            if(triangleTimerStarted) clearInterval(intervalId);
             canvas.removeEventListener('click', handleClick);
             if (currentScenario.next.length != 0) {
                 discrimination(currentScenario.next, 0, callback, 'scenario');
@@ -251,7 +255,18 @@ function displaySynopsisAndEnding(callback) {
         }
 
     }
-    setTimeout(function () { canvas.addEventListener('click', handleClick); }, 4000);
+    function startTriangleTimer() {
+        if (!triangleTimerStarted) {
+            triangleTimerStarted = true;
+            intervalId = setInterval(() => {
+                showTriangle = !showTriangle; // 点滅トグル
+            }, 500); // 点滅間隔
+        }
+    }
+    setTimeout(function () {
+        canvas.addEventListener('click', handleClick);
+        startTriangleTimer();
+    }, 3000);
     //canvas.addEventListener('click', handleClick);
 }
 // ED
@@ -262,7 +277,7 @@ function displayED(callback) {
     const text = currentScenario.text;
     let initialY = 150; // 初期の y 座標
     const lineHeight = 50; // 行の高さ
-    if(currentScenarioIndex==5) initialY = 50;
+    if (currentScenarioIndex == 5) initialY = 50;
     if (currentScenario.BGM !== "") playBGM(currentScenario.BGM, 'play');
     if (currentScenario.background != "") {
         background.src = currentScenario.background;
@@ -311,11 +326,14 @@ function displayScenario(callback) {
     console.log("displayScenario()開始" + currentScenarioIndex);
     //現在表示中のシナリオのオブジェクトを取得
     let currentScenario = fetchedData[currentScenarioIndex];
-    let isRunning = true;
-    let skipTyping = false;
-    let nextStep = false;
-    let saveIsMouseOver = false;
-    let loIsMouseOver = false;
+    let isRunning = true; // draw動かす
+    let skipTyping = false; // テキスト表示途中でskip
+    let nextStep = false; // テキスト表示完了
+    let saveIsMouseOver = false; // セーブボタンのhover
+    let loIsMouseOver = false; //ロードボタンのhover
+    let intervalId;
+    let showTriangle = false; //
+    let triangleTimerStarted = false;
     let flagNum = 0;
     const x = 130;
     const choices = currentScenario.choices;
@@ -376,40 +394,41 @@ function displayScenario(callback) {
     }
     console.log(currentScenario.text);
     //音楽が変更されていた場合
-    if (sessionStorage.getItem('bgm')!=null) {
+    if (sessionStorage.getItem('bgm') != null) {
         currentScenario.BGM = sessionStorage.getItem('bgm');
         sessionStorage.removeItem('bgm');
     }
-    if (currentScenario.BGM !== "" ) {
+    if (currentScenario.BGM !== "") {
         playBGM(currentScenario.BGM, 'play');
         sessionStorage.setItem('bgmsave', currentScenario.BGM);
         setTimeout(() => {
             console.log('2秒待機後の処理');
-          }, 2000);
+        }, 2000);
     }
-    if(sessionStorage.getItem('background')!=null){
+    //ロードした場合
+    if (sessionStorage.getItem('background') != null) {
         currentScenario.backDisplay = sessionStorage.getItem('background');
         sessionStorage.removeItem('background');
     }
-    if(sessionStorage.getItem('character')!=null){
+    if (sessionStorage.getItem('character') != null) {
         currentScenario.character[0] = sessionStorage.getItem('character');
         sessionStorage.removeItem('character');
     }
     //背景やキャラクターが変更されていた場合
     if (currentScenario.backDisplay !== "" && currentScenario.character.length !== 0) {
         console.log("両方読み込み");
-        sessionStorage.setItem('charactersave' ,currentScenario.character[0]);
-        sessionStorage.setItem('backgroundsave' ,currentScenario.backDisplay);
+        sessionStorage.setItem('charactersave', currentScenario.character[0]);
+        sessionStorage.setItem('backgroundsave', currentScenario.backDisplay);
         loadAllImages(currentScenario.backDisplay, currentScenario.character[0]);
-        draw();    
+        draw();
     } else if (currentScenario.backDisplay !== "") {
         console.log("背景読み込み");
-        sessionStorage.setItem('backgroundsave' ,currentScenario.backDisplay);
+        sessionStorage.setItem('backgroundsave', currentScenario.backDisplay);
         loadImage(background, currentScenario.backDisplay);
         draw();
     } else if (currentScenario.character.length !== 0) {
         console.log("キャラクター読み込み");
-        sessionStorage.setItem('charactersave' ,currentScenario.character[0]);
+        sessionStorage.setItem('charactersave', currentScenario.character[0]);
         loadImage(character, currentScenario.character[0]);
         draw();
     } else {
@@ -492,6 +511,8 @@ function displayScenario(callback) {
                 }
             }
         }
+        if(nextStep) startTriangleTimer();
+        if(showTriangle) blink();
         requestAnimationFrame(draw);
     }
     async function handleClick(event) {
@@ -501,6 +522,7 @@ function displayScenario(callback) {
         //セーブクリック
         if (isInside(clickX, clickY, 650, 780, 30, 70)) {
             isRunning = false;
+            if(triangleTimerStarted) clearInterval(intervalId);
             canvas.removeEventListener('click', handleClick);
             canvas.removeEventListener('mousemove', hover);
             await saveDisplay('save');
@@ -513,10 +535,11 @@ function displayScenario(callback) {
         //ロードクリック
         if (isInside(clickX, clickY, 650, 780, 90, 130)) {
             isRunning = false;
+            if(triangleTimerStarted) clearInterval(intervalId);
             canvas.removeEventListener('click', handleClick);
             canvas.removeEventListener('mousemove', hover);
             await saveDisplay('load');
-            if(sessionStorage.getItem('load') == 1) callback();
+            if (sessionStorage.getItem('load') == 1) callback();
             sessionStorage.setItem('load', 0);
             isRunning = true;
             canvas.addEventListener('click', handleClick);
@@ -534,6 +557,7 @@ function displayScenario(callback) {
                     if (isInside(clickX, clickY, xwidth, xwidth + 400, choicesRange.y[num], choicesRange.y[num] + 30)) {
                         console.log("選択肢をクリック");
                         isRunning = false;
+                        if(triangleTimerStarted) clearInterval(intervalId);
                         canvas.removeEventListener('click', handleClick);
                         canvas.removeEventListener('mousemove', hover);
                         dictionary.set(currentScenario.flagName[i], 'selected');
@@ -552,6 +576,7 @@ function displayScenario(callback) {
                     skipTyping = true;
                 } else {
                     isRunning = false;
+                    if(triangleTimerStarted) clearInterval(intervalId);
                     currentScenarioIndex++;
                     canvas.removeEventListener('click', handleClick);
                     canvas.removeEventListener('mousemove', hover);
@@ -560,7 +585,7 @@ function displayScenario(callback) {
                     console.log(Flagged);
                     if (currentScenario.endFlag != "") {
                         console.log("ゲーム終了");
-                        localStorage.setItem('end',currentScenario.endFlag);
+                        localStorage.setItem('end', currentScenario.endFlag);
                         if (currentScenario.endFlag == 'end5') {
                             jsonqu.enqueue("./json/endrole.json");
                             jsonType.enqueue('ED');
@@ -620,6 +645,14 @@ function displayScenario(callback) {
         if (isInside(mouseX, mouseY, 650, 780, 90, 130)) loIsMouseOver = true;
         else loIsMouseOver = false;
     }
+    function startTriangleTimer() {
+        if (!triangleTimerStarted) {
+            triangleTimerStarted = true;
+            setInterval(() => {
+                showTriangle = !showTriangle; // 点滅トグル
+            }, 500); // 点滅間隔
+        }
+    }
     canvas.addEventListener('click', handleClick);
     canvas.addEventListener('mousemove', hover);
 }
@@ -631,6 +664,9 @@ function displaySearch(callback) {
     let newFlag = false;
     let skipTyping = false;
     let nextStep = false;
+    let intervalId;
+    let showTriangle = false; //
+    let triangleTimerStarted = false;
     let charIndex = 0;
     let lineIndex = 0;
     let y = 280;
@@ -735,6 +771,8 @@ function displaySearch(callback) {
                     skipTyping = true;
                 }
             }
+            if(nextStep) startTriangleTimer();
+            if(showTriangle) blink();
             requestAnimationFrame(draw);
         }
 
@@ -752,6 +790,7 @@ function displaySearch(callback) {
                         console.log("物がクリックされました", currentScenario.name);
                         canvas.style.cursor = `url(${customCursorImage}), pointer`;
                         isRunning = false;
+                        if(triangleTimerStarted) clearInterval(intervalId);
                         canvas.removeEventListener('click', handleClick);
                         canvas.removeEventListener('mousemove', hover);
                         dictionary.set(currentScenario.name[i], 'selected');
@@ -766,6 +805,7 @@ function displaySearch(callback) {
                     skipTyping = true;
                 } else {
                     isRunning = false;
+                    if(triangleTimerStarted) clearInterval(intervalId);
                     currentScenarioIndex++;
                     canvas.removeEventListener('click', handleClick);
                     if (currentScenario.next.length != 0) {
@@ -802,6 +842,14 @@ function displaySearch(callback) {
             if (i == siz) canvas.style.cursor = `url(${customCursorImage}), pointer`;
             i++;
         });
+    }
+    function startTriangleTimer() {
+        if (!triangleTimerStarted) {
+            triangleTimerStarted = true;
+            setInterval(() => {
+                showTriangle = !showTriangle; // 点滅トグル
+            }, 500); // 点滅間隔
+        }
     }
 }
 // 音楽再生
@@ -1000,7 +1048,7 @@ async function saveDisplay(either) {
                     canvas.removeEventListener('wheel', handleScroll);
                     isMouseOverCanvas = false;
                     scrollOffset = 0;
-                    ctx.clearRect(0,0,canvas.width,canvas.height);
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
                     resolve("戻って終了");
                     return;
                 }
@@ -1053,7 +1101,7 @@ async function saveDisplay(either) {
                                         dictionary = new Map(savedata.selected);
                                         dictionary.set(savedata.filename, savedata.currentIndex);
                                         jsonqu.enqueue(savedata.filename);
-                                        sessionStorage.setItem('background',savedata.background);
+                                        sessionStorage.setItem('background', savedata.background);
                                         sessionStorage.setItem('bgm', savedata.bgm);
                                         sessionStorage.setItem('character', savedata.character);
                                         if (savedata.filename.includes('synopsis')) jsonType.enqueue('synopsis');
@@ -1068,10 +1116,10 @@ async function saveDisplay(either) {
                                     dictionary = new Map(savedata.selected);
                                     dictionary.set(savedata.filename, savedata.currentIndex);
                                     jsonqu.enqueue(savedata.filename);
-                                    sessionStorage.setItem('background',savedata.background);
+                                    sessionStorage.setItem('background', savedata.background);
                                     sessionStorage.setItem('bgm', savedata.bgm);
                                     sessionStorage.setItem('character', savedata.character);
-                                    sessionStorage.setItem('load',1);
+                                    sessionStorage.setItem('load', 1);
                                     if (savedata.filename.includes('synopsis')) jsonType.enqueue('synopsis');
                                     else jsonType.enqueue('scenario');
                                 } else {
@@ -1087,7 +1135,7 @@ async function saveDisplay(either) {
                                     console.log(saveData);
                                     localStorage.setItem(slotnum, JSON.stringify(saveData));
                                 }
-                                ctx.clearRect(0,0,canvas.width,canvas.height);
+                                ctx.clearRect(0, 0, canvas.width, canvas.height);
                                 resolve("セーブスロット終了");
                                 return;
                             }
@@ -1130,18 +1178,14 @@ function roundRect(ctx, x, y, width, height, radius, colorStart, colorEnd) {
     ctx.fillStyle = gradient;
     ctx.fill();
 }
+// ⇒
 function drawArrow(ctx, x, y, length, width, color) {
-    // 矢印の線のスタイル
     ctx.strokeStyle = color;
     ctx.lineWidth = width;
-
-    // 矢印の軸を描画
     ctx.beginPath();
     ctx.moveTo(x, y - length / 2); // 上端
     ctx.lineTo(x, y + length / 2); // 下端
     ctx.stroke();
-
-    // 上矢印の頭
     ctx.beginPath();
     ctx.moveTo(x, y - length / 2); // 上端
     ctx.lineTo(x - width * 2, y - length / 2 + width * 3);
@@ -1149,14 +1193,24 @@ function drawArrow(ctx, x, y, length, width, color) {
     ctx.closePath();
     ctx.fillStyle = color;
     ctx.fill();
-
-    // 下矢印の頭
     ctx.beginPath();
     ctx.moveTo(x, y + length / 2); // 下端
     ctx.lineTo(x - width * 2, y + length / 2 - width * 3);
     ctx.lineTo(x + width * 2, y + length / 2 - width * 3);
     ctx.closePath();
     ctx.fillStyle = color;
+    ctx.fill();
+}
+// 点滅描画
+function blink() {
+    const triangleX = canvas.width - 50;
+    const triangleY = canvas.height - 30;
+    ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
+    ctx.beginPath();
+    ctx.moveTo(triangleX, triangleY); // 頂点
+    ctx.lineTo(triangleX - 15, triangleY - 20); // 左下
+    ctx.lineTo(triangleX + 15, triangleY - 20); // 右下
+    ctx.closePath();
     ctx.fill();
 }
 //行き先を指定する
@@ -1168,7 +1222,7 @@ function discrimination(next, i, callback, func) {
         else if (func == 'search') displaySearch(callback);
     } else {
         const str = next[i];
-        console.log("文字",str);
+        console.log("文字", str);
         if (next == 3) {
             console.log("特定の場所に移動");
             dictionary.set(str, next[2]);

@@ -26,6 +26,14 @@ const fileNameList = {
     "./json/ending3_churuEND.json": "牢屋",
     "./json/ending5.json": "再会",
 }
+const endList = {
+    "end1": "選り好みはよくない",
+    "end2": "探偵に向いていない",
+    "end3": "欲望に負けた者の末路",
+    "end4": "二流探偵",
+    "end5": "過去を取り戻し者"
+}
+const endL = ['end1', 'end2', 'end3', 'end4', 'end5'];
 //初期化
 const audioCtx = new AudioContext();
 const worker = new Worker('./worker.js');
@@ -68,6 +76,7 @@ let saveData = {
     selected: new Map()
 }
 let dictionary = new Map();
+
 //スタート画面動画再生
 async function startGame() {
     let isClicked = false;
@@ -95,12 +104,8 @@ async function startGame() {
                         ctx.beginPath();
                         ctx.ellipse(405, 405, 85, 45, 0, 0, 2 * Math.PI);
                         ctx.fill();
-                    } else if (isMouseOver) {
-                        ctx.fillStyle = 'red';
-
-                    } else {
-                        ctx.fillStyle = 'rgba(0, 0, 255, 0.5)';
-                    }
+                    } else if (isMouseOver) ctx.fillStyle = 'red';
+                    else ctx.fillStyle = 'rgba(0, 0, 255, 0.5)';
                     ctx.fill();
                     //ctx.fillRect(350, 300, 100, 50); // x, y, width, height
                     //スタートボタンの文字
@@ -241,7 +246,7 @@ function displaySynopsisAndEnding(callback) {
             isRunning = false;
             console.log("クリックSynopsisAndEnding");
             currentScenarioIndex++;
-            if(triangleTimerStarted) clearInterval(intervalId);
+            if (triangleTimerStarted) clearInterval(intervalId);
             canvas.removeEventListener('click', handleClick);
             if (currentScenario.next.length != 0) {
                 discrimination(currentScenario.next, 0, callback, 'scenario');
@@ -263,11 +268,11 @@ function displaySynopsisAndEnding(callback) {
             }, 500); // 点滅間隔
         }
     }
-    setTimeout(function () {
-        canvas.addEventListener('click', handleClick);
-        startTriangleTimer();
-    }, 3000);
-    //canvas.addEventListener('click', handleClick);
+    // setTimeout(function () {
+    //     canvas.addEventListener('click', handleClick);
+    //     startTriangleTimer();
+    // }, 3000);
+    canvas.addEventListener('click', handleClick);
 }
 // ED
 function displayED(callback) {
@@ -407,10 +412,12 @@ function displayScenario(callback) {
     }
     //ロードした場合
     if (sessionStorage.getItem('background') != null) {
+        console.log("ロード画面", sessionStorage.getItem('background'));
         currentScenario.backDisplay = sessionStorage.getItem('background');
         sessionStorage.removeItem('background');
     }
     if (sessionStorage.getItem('character') != null) {
+        console.log("ロードキャラクター", sessionStorage.getItem('character'));
         currentScenario.character[0] = sessionStorage.getItem('character');
         sessionStorage.removeItem('character');
     }
@@ -511,8 +518,8 @@ function displayScenario(callback) {
                 }
             }
         }
-        if(nextStep) startTriangleTimer();
-        if(showTriangle) blink();
+        if (nextStep) startTriangleTimer();
+        if (showTriangle) blink();
         requestAnimationFrame(draw);
     }
     async function handleClick(event) {
@@ -522,7 +529,7 @@ function displayScenario(callback) {
         //セーブクリック
         if (isInside(clickX, clickY, 650, 780, 30, 70)) {
             isRunning = false;
-            if(triangleTimerStarted) clearInterval(intervalId);
+            if (triangleTimerStarted) clearInterval(intervalId);
             canvas.removeEventListener('click', handleClick);
             canvas.removeEventListener('mousemove', hover);
             await saveDisplay('save');
@@ -535,7 +542,7 @@ function displayScenario(callback) {
         //ロードクリック
         if (isInside(clickX, clickY, 650, 780, 90, 130)) {
             isRunning = false;
-            if(triangleTimerStarted) clearInterval(intervalId);
+            if (triangleTimerStarted) clearInterval(intervalId);
             canvas.removeEventListener('click', handleClick);
             canvas.removeEventListener('mousemove', hover);
             await saveDisplay('load');
@@ -557,7 +564,7 @@ function displayScenario(callback) {
                     if (isInside(clickX, clickY, xwidth, xwidth + 400, choicesRange.y[num], choicesRange.y[num] + 30)) {
                         console.log("選択肢をクリック");
                         isRunning = false;
-                        if(triangleTimerStarted) clearInterval(intervalId);
+                        if (triangleTimerStarted) clearInterval(intervalId);
                         canvas.removeEventListener('click', handleClick);
                         canvas.removeEventListener('mousemove', hover);
                         dictionary.set(currentScenario.flagName[i], 'selected');
@@ -576,7 +583,7 @@ function displayScenario(callback) {
                     skipTyping = true;
                 } else {
                     isRunning = false;
-                    if(triangleTimerStarted) clearInterval(intervalId);
+                    if (triangleTimerStarted) clearInterval(intervalId);
                     currentScenarioIndex++;
                     canvas.removeEventListener('click', handleClick);
                     canvas.removeEventListener('mousemove', hover);
@@ -771,8 +778,8 @@ function displaySearch(callback) {
                     skipTyping = true;
                 }
             }
-            if(nextStep) startTriangleTimer();
-            if(showTriangle) blink();
+            if (nextStep) startTriangleTimer();
+            if (showTriangle) blink();
             requestAnimationFrame(draw);
         }
 
@@ -790,7 +797,7 @@ function displaySearch(callback) {
                         console.log("物がクリックされました", currentScenario.name);
                         canvas.style.cursor = `url(${customCursorImage}), pointer`;
                         isRunning = false;
-                        if(triangleTimerStarted) clearInterval(intervalId);
+                        if (triangleTimerStarted) clearInterval(intervalId);
                         canvas.removeEventListener('click', handleClick);
                         canvas.removeEventListener('mousemove', hover);
                         dictionary.set(currentScenario.name[i], 'selected');
@@ -805,7 +812,7 @@ function displaySearch(callback) {
                     skipTyping = true;
                 } else {
                     isRunning = false;
-                    if(triangleTimerStarted) clearInterval(intervalId);
+                    if (triangleTimerStarted) clearInterval(intervalId);
                     currentScenarioIndex++;
                     canvas.removeEventListener('click', handleClick);
                     if (currentScenario.next.length != 0) {
@@ -917,6 +924,8 @@ async function saveDisplay(either) {
     const mozi = ["はい", "いいえ"];
     const moziX = [(coX1 + confirmationX / 2), coX2 + confirmationX / 2];
     let slot = [1, 2, 3];
+    let endListClick = false;
+    let enIsMouseOver = false;
     // スロットスクロール
     function handleScroll(event) {
         console.log("スクロール");
@@ -982,6 +991,12 @@ async function saveDisplay(either) {
             ctx.fillStyle = 'rgb(0, 0, 0)';
             ctx.fillText("戻る", 715, 110);
         }
+        //エンドリストボタン
+        if (enIsMouseOver) roundRect(ctx, 30, 30, 130, 40, 10, 'rgb(253, 205, 161)', 'rgba(251, 197, 194, 0.66)');
+        else roundRect(ctx, 30, 30, 130, 40, 10, 'rgb(91, 207, 87)', 'rgba(70, 224, 109, 0.8)');
+        ctx.fillStyle = 'black';
+        ctx.font = 'bold 15px sans-serif';
+        ctx.fillText("エンドリスト", 95, 50);
         // 削除最終確認
         if (confirmation != -1) {
             roundRect(ctx, 150, 100, 500, 250, 10, 'rgba(162, 162, 162, 0.83)', 'rgba(73, 69, 69, 0.89)');
@@ -1018,6 +1033,8 @@ async function saveDisplay(either) {
                 else isMouseOver[i] = false;
                 yh += 80;
             }
+            if (isInside(mouseX, mouseY, 30, 160, 30, 70)) enIsMouseOver = true;
+            else enIsMouseOver = false;
         } else {
             if (isInside(mouseX, mouseY, coX1, coX1 + confirmationX, 230, 280)) coIsMouseOver[0] = true;
             else coIsMouseOver[0] = false;
@@ -1053,6 +1070,19 @@ async function saveDisplay(either) {
                     return;
                 }
             }
+            if (isInside(clickX, clickY, 30, 160, 30, 70)) {
+                isRunning = false;
+                canvas.removeEventListener('click', handleClick);
+                canvas.removeEventListener('mousemove', hover);
+                canvas.removeEventListener('mouseenter', mouseEnter);
+                canvas.removeEventListener('mouseleave', mouseLeave);
+                canvas.removeEventListener('wheel', handleScroll);
+                isMouseOverCanvas = false;
+                scrollOffset = 0;
+                return new Promise(resolve => {
+                    endListDisplay(resolve);
+                });
+            }
             // 削除最終確認
             if (confirmation == -1) {
                 // 削除をクリックまたはセーブスロットをクリック
@@ -1085,12 +1115,6 @@ async function saveDisplay(either) {
                                     if (localStorage.getItem(slotnum) == null) {
                                         console.log("新規スタート");
                                         saveData.filename = './json/synopsis.json';
-                                        saveData.date = new Date();
-                                        saveData.currentIndex = 0;
-                                        dictionary.set(-1, -1);
-                                        saveData.selected = Array.from(dictionary);
-                                        localStorage.setItem(slotnum, JSON.stringify(saveData));
-                                        console.log(localStorage.getItem(slotnum));
                                         jsonqu.enqueue('./json/synopsis.json');
                                         jsonType.enqueue('synopsis');
                                     } else {
@@ -1157,6 +1181,75 @@ async function saveDisplay(either) {
         canvas.addEventListener('mouseenter', mouseEnter);
         canvas.addEventListener('mouseleave', mouseLeave);
         canvas.addEventListener('wheel', handleScroll);
+        draw();
+    });
+}
+// エンドリスト############################################
+function endListDisplay(resolve2) {
+    console.log("endListDisplay開始");
+    let isRunning = true;
+    let endListMouseOver = false; // エンドリストボタンhover
+    let endListClick = true; // エンドリストぼたん
+    let endViewMouseOver = new Array(5).fill(false); // 
+    let endViewClick = new Array(5).fill(false);
+    const endListX = [canvas.width / 2 - 200 - 20, canvas.width / 2 + 20, canvas.width / 2 - 200 - 20, canvas.width / 2 + 20, canvas.width / 2 - 200 - 20];
+    const endListY = [130, 130, 200, 200, 270];
+    function draw() {
+        if (!isRunning) return;
+        // エンドリストボタン
+        if (endListMouseOver) roundRect(ctx, 30, 30, 130, 40, 10, 'rgb(253, 205, 161)', 'rgba(251, 197, 194, 0.66)');
+        else roundRect(ctx, 30, 30, 130, 40, 10, 'rgb(91, 207, 87)', 'rgba(70, 224, 109, 0.8)');
+        ctx.fillStyle = 'black';
+        ctx.font = 'bold 15px sans-serif';
+        if (endListClick) {
+            ctx.fillText("戻る", 95, 50);
+            roundRect(ctx, 150, 100, 500, 250, 10, 'rgba(162, 162, 162, 0.83)', 'rgba(73, 69, 69, 0.89)');
+            for (let i = 0; i < 5; i++) {
+                if (endViewMouseOver[i]) roundRect(ctx, endListX[i], endListY[i], 200, 60, 10, 'rgba(76, 36, 195, 0.83)', 'rgba(73, 69, 69, 0.89)');
+                else roundRect(ctx, endListX[i], endListY[i], 200, 60, 10, 'rgba(0, 0, 0, 0.83)', 'rgba(166, 184, 50, 0.89)');
+                ctx.fillStyle = 'white';
+                ctx.font = 'bold 20px sans-serif';
+                ctx.fillText(endL[i], endListX[i] + 10, endListY[i] + 10);
+                if (localStorage.getItem(endL[i]) != null) ctx.fillText(endL[i], endListX[i] + 10, endListY[i] + 10);
+                else ctx.fillText(endList[endL[i]], endListX[i] + 10, endListY[i] + 10);
+            }
+        } else ctx.fillText("エンドリスト", 95, 50);
+        requestAnimationFrame(draw);
+    }
+    //　hover
+    function hover(event) {
+        const rect = canvas.getBoundingClientRect();
+        const mouseX = event.clientX - rect.left;
+        const mouseY = event.clientY - rect.top;
+        if (isInside(mouseX, mouseY, 30, 160, 30, 70)) endListMouseOver = true;
+        else endListMouseOver = false;
+        for (let i = 0; i < 5; i++) {
+            if (isInside(mouseX, mouseY, endListX[i], endListX[i] + 200, endListY[i], endListY[i] + 60)) endViewMouseOver[i] = true;
+            else endViewMouseOver[i] = false;
+        }
+    }
+    return new Promise(resolve => {
+        function handleClick(event) {
+            const rect = canvas.getBoundingClientRect();
+            const clickX = event.clientX - rect.left;
+            const clickY = event.clientY - rect.top;
+            console.log(clickX, clickY);
+            for (let i = 0; i < 5; i++) {
+                if (isInside(clickX, clickY, endListX[i], endListX[i] + 200, endListY[i], endListY[i] + 60)) {
+                    endViewClick[i] = true;
+                    break;
+                }
+            }
+            if (isInside(clickX, clickY, 30, 160, 30, 70)) {
+                if (!endListClick) {
+
+                } else {
+                    resolve(resolve2);
+                }
+            }
+        }
+        canvas.addEventListener('click', handleClick);
+        canvas.addEventListener('mousemove', hover);
         draw();
     });
 }

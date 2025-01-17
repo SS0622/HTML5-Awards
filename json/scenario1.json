@@ -28,7 +28,7 @@
         "Flagged": [],
         "person": "",
         "SoundEffects": "",
-        "character": [""],
+        "character": ["./image/iraijya/iraijya_magao.png"],
         "endFlag": ""
     },
     {
@@ -44,7 +44,7 @@
         "Flagged": [],
         "person": "",
         "SoundEffects": "",
-        "character": [],
+        "character": ["./image/iraijya/iraijya_egao.png"],
         "endFlag": ""
     },
     {
@@ -59,7 +59,7 @@
         "Flagged": [],
         "person": "???",
         "SoundEffects": "",
-        "character": [],
+        "character": ["./image/iraijya/iraijya_magao.png"],
         "endFlag": ""
     },
     {
@@ -74,7 +74,7 @@
         "Flagged": [],
         "person": "",
         "SoundEffects": "",
-        "character": [],
+        "character": ["./image/iraijya/iraijya_magao.png"],
         "endFlag": ""
     },
     {
@@ -89,7 +89,7 @@
         "Flagged": [],
         "person": "イライジャ",
         "SoundEffects": "",
-        "character": [],
+        "character": ["./image/iraijya/iraijya_magao.png"],
         "endFlag": ""
     },
     {
@@ -122,7 +122,6 @@
         "person": "イライジャ",
         "SoundEffects": "",
         "character": [
-            "./image/tantei/tanntei_no-maru.png",
             "./image/iraijya/iraijya_magao.png"
         ],
         "endFlag":""
@@ -139,7 +138,7 @@
         "Flagged": [],
         "person": "",
         "SoundEffects": "",
-        "character": [],
+        "character": ["./image/iraijya/iraijya_magao.png"],
         "endFlag": ""
     },
     {
@@ -156,7 +155,7 @@
         "Flagged": [],
         "person": "イライジャ",
         "SoundEffects": "",
-        "character": [],
+        "character": ["./image/iraijya/iraijya_magao.png"],
         "endFlag": ""
     },
     {
@@ -172,7 +171,7 @@
         "Flagged": [],
         "person": "",
         "SoundEffects": "./music/5kami1.mp3",
-        "character": [],
+        "character": ["./image/tantei/tanntei_no-maru.png"],
         "endFlag": ""
     },
     {
@@ -186,7 +185,7 @@
         "Flagged": [],
         "person": "探偵",
         "SoundEffects": "",
-        "character": [],
+        "character": ["./image/tantei/tanntei_no-maru.png"],
         "endFlag": ""
     },
     {
@@ -202,7 +201,7 @@
         "Flagged": [],
         "person": "イライジャ",
         "SoundEffects": "",
-        "character": [],
+        "character": ["./image/iraijya/iraijya_magao.png"],
         "endFlag": ""
     },
     {
@@ -218,7 +217,6 @@
         "person": "",
         "SoundEffects": "",
         "character": [
-            "./image/tantei/tanntei_no-maru.png",
             "./image/iraijya/iraijya_kanasimi.png"
         ],
         "endFlag": ""
@@ -235,7 +233,7 @@
         "Flagged": [],
         "person": "イライジャ",
         "SoundEffects": "",
-        "character": [],
+        "character": ["./image/iraijya/iraijya_kanasimi.png"],
         "endFlag": ""
     },
     {
@@ -276,7 +274,7 @@
 
     {
         "text": [
-            "私の勘が言っていた。この件はかかわるべきではないと。"
+            "俺の勘が言っていた。この件はかかわるべきではないと。"
         ],
         "backDisplay": "",
         "BGM": "",
@@ -285,7 +283,7 @@
         "Flagged": [],
         "person": "",
         "SoundEffects": "",
-        "character": [],
+        "character": ["./image/tantei/tanntei_no-maru.png"],
         "endFlag": ""
     },
     {
@@ -341,7 +339,6 @@
         "person": "イライジャ",
         "SoundEffects": "",
         "character": [
-            "./image/tantei/tanntei_no-maru.png",
             "./image/iraijya/iraijya_yorokobi.png"
         ],
         "endFlag": ""
@@ -404,7 +401,7 @@
         "Flagged": [],
         "person": "探偵",
         "SoundEffects": "",
-        "character": [],
+        "character": ["./image/tantei/tanntei_no-maru.png"],
         "endFlag": ""
     },
     {
@@ -423,7 +420,6 @@
         "person": "イライジャ",
         "SoundEffects": "",
         "character": [
-            "./image/tantei/tanntei_no-maru.png",
             "./image/iraijya/iraijya_kanasimi.png"
         ],
         "endFlag": ""
@@ -439,7 +435,7 @@
         "Flagged": [],
         "person": "探偵",
         "SoundEffects": "",
-        "character": [],
+        "character": ["./image/tantei/tanntei_no-maru.png"],
         "endFlag": ""
     },
     {
@@ -457,7 +453,7 @@
         "Flagged": [],
         "person": "イライジャ",
         "SoundEffects": "",
-        "character": [],
+        "character": ["./image/iraijya/iraijya_kanasimi.png"],
         "endFlag": ""
     },
     {
@@ -471,7 +467,7 @@
         "Flagged": [],
         "person": "探偵",
         "SoundEffects": "",
-        "character": [],
+        "character": ["./image/tantei/tanntei_no-maru.png"],
         "endFlag": ""
     },
     {
@@ -488,7 +484,7 @@
         "Flagged": [],
         "person": "イライジャ",
         "SoundEffects": "",
-        "character": [],
+        "character": ["./image/iraijya/iraijya_magao.png"],
         "endFlag": ""
     },
     {
@@ -503,7 +499,6 @@
         "person": "イライジャ",
         "SoundEffects": "",
         "character": [
-            "./image/tantei/tanntei_no-maru.png",
             "./image/iraijya/iraijya_magao.png"
         ],
         "endFlag": ""
@@ -520,12 +515,12 @@
         "Flagged": [],
         "person": "探偵",
         "SoundEffects": "",
-        "character": [],
+        "character": ["./image/tantei/tanntei_no-maru.png"],
         "endFlag": ""
     },
     {
         "text": [
-            "僕は深く頷き、",
+            "俺は深く頷き、",
             "机の上のメモ帳を見つめた。"
         ],
         "backDisplay": "",
@@ -535,7 +530,7 @@
         "Flagged": [],
         "person": "",
         "SoundEffects": "",
-        "character": [],
+        "character": ["./image/tantei/tanntei_no-maru.png"],
         "endFlag": ""
     },
     {
@@ -549,7 +544,7 @@
         "Flagged": [],
         "person": "",
         "SoundEffects": "",
-        "character": [],
+        "character": ["./image/iraijya/iraijya_yorokobi.png"],
         "endFlag": ""
     },
     {
@@ -565,7 +560,6 @@
         "person": "イライジャ",
         "SoundEffects": "",
         "character": [
-            "./image/tantei/tanntei_no-maru.png",
             "./image/iraijya/iraijya_egao.png"
         ],
         "endFlag": ""
@@ -601,7 +595,7 @@
         "Flagged": [],
         "person": "",
         "SoundEffects": "",
-        "character": [],
+        "character": ["./image/tantei/tanntei_no-maru.png"],
         "endFlag": ""
     }
 ]

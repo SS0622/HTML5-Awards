@@ -1,0 +1,1184 @@
+[
+    {
+        "text": [
+            "俺とイライジャは子供たちのいる場所に向かった。"
+        ],
+        "backDisplay": "./image/kennkyuusiturouka.jpg",
+        "BGM": "./music/35annsinn.mp3",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「子供たち何もされてないといいね...。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [
+            "./image/iraijya/iraijya_magao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "イライジャは不安そうな顔をしてそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/iraijya/iraijya_magao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「そうだな....。」",
+            "「実験なんてされてないといいが..。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_kanasimi.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺も複雑な顔でそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_kanasimi.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「子供たちがいるのこの扉の奥だよね？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [
+            "./image/iraijya/iraijya_magao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "イライジャは俺にそう聞いた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/iraijya/iraijya_magao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「あぁ、そのはずだ。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺はイライジャの言葉に頷いた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「よし！！」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [
+            "./image/iraijya/iraijya_magao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "イライジャは意気込んで扉を勢いよく開けた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "./music/42donn.mp3",
+        "character": [
+            "./image/iraijya/iraijya_magao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「みんな！！もう大丈夫だよ！！",
+            "安心して！！！！」"
+        ],
+        "backDisplay": "./image/kennkyuusitu.jpg",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [
+            "./image/iraijya/iraijya_yorokobi.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "イライジャは大きな声で子供たちに呼びかけた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/iraijya/iraijya_yorokobi.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "イライジャの大声に驚いたのか子供たちは",
+            "みんな泣き出してしまった。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/another/kyara_koneko.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「え、？え、みんなどうしちゃったの？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [
+            "./image/iraijya/iraijya_kanasimi.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "イライジャはそんな子供たちに",
+            "動揺を隠せずにいた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/iraijya/iraijya_kanasimi.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「お前が大声を急に出すからだろ...。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_muka.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺はイライジャに呆れた顔を向けながら",
+             "子供に目線を合わせた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_muka.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「急に驚かせてごめんな。",
+            "もう大丈夫。俺たちはみんなを助けに来たんだ」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_egao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺はほほ笑みながら子供たちの頭を撫でた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_egao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「こわかった～～～！！！」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "子供たち",
+        "SoundEffects": "",
+        "character": [
+            "./image/another/kyara_koneko.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "子供たちは俺の言葉に安心したのか",
+            "俺のもとへ一斉に駆け寄った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/another/kyara_koneko.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「すご...。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [
+            "./image/iraijya/iraijya_akogare.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "イライジャは驚いた様子で俺の様子を見ていた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/iraijya/iraijya_akogare.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「ん？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "./music/43huku.mp3",
+        "character": [
+            "./image/iraijya/iraijya_magao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「ありがとう...。",
+             "助けてくれて....。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "子供",
+        "SoundEffects": "",
+        "character": [
+            "./image/another/kyara_koneko.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "子供は静かにイライジャにそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/another/kyara_koneko.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「無事でほんとによかった！！！」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [
+            "./image/iraijya/iraijya_yorokobi.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "イライジャはとてもうれしそうな顔をして",
+            "子供を抱きしめた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/iraijya/iraijya_yorokobi.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「....。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_egao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺はそんなイライジャの様子を見て",
+            "笑みがこぼれた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_egao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「みんな。あのお兄さんは",
+            "みんなを安心させようと必死だったんだ。",
+            "許してあげてほしいな。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_egao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は出来るだけ優しい顔で子供たちを見た。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_egao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「少しびっくりしただけだから大丈夫！」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "子供たち",
+        "SoundEffects": "",
+        "character": [
+            "./image/another/kyara_koneko.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "子供たちはみんなそう言って",
+            "イライジャのもとへ駆け寄った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/another/kyara_koneko.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「お兄さんありがとーーー！！」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "子供たち",
+        "SoundEffects": "",
+        "character": [
+            "./image/another/kyara_koneko.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "イライジャは嬉しそうな顔で子供たちを受け止めた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/iraijya/iraijya_egao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「さぁ、もうここを出よう。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "探偵はそう言って扉まで歩いた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「うん！",
+             "みんな着いてきて！！"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [
+            "./image/iraijya/iraijya_yorokobi.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「はーーーーい！！！」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "子供たち",
+        "SoundEffects": "",
+        "character": [
+            "./image/another/kyara_koneko.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "そういってイライジャと子供たちも歩き出した。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/iraijya/iraijya_magao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「結構すぐ出られたね。」"
+        ],
+        "backDisplay": "./image/kennkyuusituyuu .jpg",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [
+            "./image/iraijya/iraijya_egao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "イライジャは外に出られたことがうれしかったのか",
+            "笑顔で俺にそう言った"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/iraijya/iraijya_egao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「あぁ、地図があったからかな。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_egao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺はイライジャに地図を見せびらかした。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "./music/21kami3.mp3",
+        "character": [
+            "./image/tantei/tanntei_egao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「その地図への信頼度は何なの...。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [
+            "./image/iraijya/iraijya_kanasimi.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "イライジャは少し引いたような顔をして俺を見た。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/iraijya/iraijya_kanasimi.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "そこにサイレンの音を出しながら",
+            "複数パトカーが到着した。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "./music/44patoka-.mp3",
+        "character": [
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「通報したのはあなたたちですか？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "警察",
+        "SoundEffects": "",
+        "character": [
+            "./image/another/kyara_usagi.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "警察は大勢の子供たちを見ながら",
+             "不思議そうに言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/another/kyara_usagi.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「そうです。この子たち誘拐されていて...。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「誘拐！？それは本当ですか！？",
+            "詳しくお話を聞かせてください！」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "警察",
+        "SoundEffects": "",
+        "character": [
+            "./image/another/kyara_kuma.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「警察は驚いた様子で俺に近づいた。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/another/kyara_kuma.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「はい。実は....。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺はオーガのこと、子供たちのことを警察に話した。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「そうですか。そんなことが...。",
+            "ちなみにそのオーガってやつはどこに？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "警察",
+        "SoundEffects": "",
+        "character": [
+            "./image/another/kyara_usagi.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "警察は辺りを見渡した。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/another/kyara_usagi.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「それが逃げられてしまって...。",
+            "今はどこに行ったのかわかりません。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「でもどうせあいつのことだから、",
+            "また似たようなことしだすよ！絶対！！」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [
+            "./image/iraijya/iraijya_muka.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "話を聞いていたイライジャが強くそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/iraijya/iraijya_muka.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「そんなに危険な奴を",
+            "野放しにしておく訳にはいきませんね...。",
+            "我々も詳しく調査してみます。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "警察",
+        "SoundEffects": "",
+        "character": [
+            "./image/another/kyara_kuma.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「ご協力感謝します。",
+            "このまま話を詳しく聞きたいので",
+            "子供たちと一緒に来てくれますか？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "警察",
+        "SoundEffects": "",
+        "character": [
+            "./image/another/kyara_kuma.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "警察は子供たちを集めながらそう言った。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/another/kyara_kuma.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「はい。もちろんです。」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺とイライジャはパトカーに近づいた。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_no-maru.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「兄さん。オーガがまた暴れまわったらさ",
+            "今度は俺も一緒に捕まえに行くよ！」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [
+            "./image/iraijya/iraijya_egao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "こんなに長い間俺たちから",
+            "兄さんを奪った張本人だしさ！！"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "イライジャ",
+        "SoundEffects": "",
+        "character": [
+            "./image/iraijya/iraijya_egao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "イライジャは目に闘志を燃やしながら",
+            "俺の肩を叩き、パトカーに乗り込んだ"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/iraijya/iraijya_egao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "「あまり危険なことはするなよ、？」"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "探偵",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_egao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺は少し不安になりながらも",
+            "どこか嬉しい気持ちで",
+            "パトカーに乗り込んだ。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+            "./image/tantei/tanntei_egao.png"
+        ],
+        "endFlag": ""
+    },
+    {
+        "text": [
+            "俺とイライジャ、そして子供たちを乗せたパトカーは",
+            "そのまま研究施設を後にした。"
+        ],
+        "backDisplay": "",
+        "BGM": "",
+        "choices": [],
+        "next": [],
+        "Flagged": [],
+        "person": "",
+        "SoundEffects": "",
+        "character": [
+        ],
+        "endFlag": "end4"
+    }
+
+    
+]
